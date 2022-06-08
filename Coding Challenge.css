@@ -1,0 +1,76 @@
+*{
+  box-sizing: border-box;
+}
+
+ body{
+  background-image: url("C:/Users/gdp98/OneDrive/Desktop/Coding Challenge/Immagini/background.jpg");
+  background-size:cover;
+  width:  100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color:white;
+}
+
+header  {
+  text-align: center;
+  color: #00DD00;
+  font-size: 30px;
+}
+
+#Logo {
+  width: 20%;
+  height: 20%;
+}
+
+main {
+  color: white;
+  margin-left: 500px;
+}
+
+main h3 {
+  display: inline-block;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+main span {
+  font-size: 25px;
+}
+
+#pulsanti {
+  text-align: center;
+  background-color: #00DD00 ;
+  width: auto;
+  height: auto;
+  padding: 10px;
+}
+
+.spazio {
+  width: 400px;
+}
+
+.freccia:after {
+  content:"\21A6"
+}
+
+#mediumcharge {
+  border-radius: 15px;
+  background-color: #F5B453;
+  Padding: 30px;
+  width: 550px;
+}
+
+#fullcharge {
+  border-radius: 15px;
+  background-color: #00DD00;
+  padding: 30px;
+  width: 1000px;
+}
+
+#lowcharge {
+  border-radius: 15px;
+  background-color: #BE4141;
+  padding: 30px;
+  width: 300px;
+}
